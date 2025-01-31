@@ -1,6 +1,3 @@
-# Programmer: Lucas Luscomb
-# Branch: Welcome
-# Date:
-# Program:
+print("Welcome Branch - Developer: Lucas Luscomb")
 
-print("Welcome To InfoTechCenter!")
+print("\n\tWelcome To InfoTechCenter!")
