@@ -12,4 +12,11 @@ def weather():
     weatherCondition = random.choice(weatherForecastList)
     return weatherCondition
 
-print  (weather())
+weatherAlert= weather()
+
+def vehicleResponseSystem():
+    if weatherAlert == "snowing":
+        print("\nThe Nation Weather Service has updated our alarm by 30 minutes because"
+        "of the forecast of", weatherAlert, "weather condition.")
+
+vehicleResponseSystem()
