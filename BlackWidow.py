@@ -21,6 +21,19 @@ def vehicleResponseSystem():
     elif weatherAlert == "blizzard":
         print("\nThe Nation Weather Service has updated our alarm by 60 minutes because"
             "of the forecast of", weatherAlert, "outside.")
+    elif weatherAlert == "icy":
+        print("\nThe Nation Weather Service has updated our alarm by 60 minutes because"
+            "of the forecast of", weatherAlert, "outside.")
+    elif weatherAlert == "rainy":
+        print("\nThe Nation Weather Service has updated our alarm by 60 minutes because"
+            "of the forecast of", weatherAlert, "outside.")
+    elif weatherAlert == "windy":
+        print("\nThe Nation Weather Service has updated our alarm by 60 minutes because"
+            "of the forecast of", weatherAlert, "outside.")
+    elif weatherAlert == "sunny":
+        print("\nThe Nation Weather Service has updated our alarm by 60 minutes because"
+            "of the forecast of", weatherAlert, "outside.")
+
 
 
 vehicleResponseSystem()
