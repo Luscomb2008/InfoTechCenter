@@ -1,6 +1,6 @@
 # Print initial lines with some separation and title
 print("\n*****************************************\n")
-print("Weather Branch - Developer: Lucas Luscomb\n")
+print("Weather Branch - Developer: Lucas Luscomb")
 
 # Import necessary libraries
 import random  # For generating random weather conditions
@@ -23,21 +23,33 @@ def vehicleResponseSystem():
     if weatherAlert == "snowing":
         print("\nThe Nation Weather Service has updated our alarm by 30 minutes because"
               " of the forecast of", weatherAlert, "outside.")
+        sleep(1)
+        print("VRS has been engaged only allowing us to drive 55MPH.")
     elif weatherAlert == "blizzard":
         print("\nThe Nation Weather Service has updated our alarm by 60 minutes because"
               " of the forecast of", weatherAlert, "outside.")
+        sleep(1)
+        print("VRS has been engaged only allowing us to drive 55MPH.")
     elif weatherAlert == "icy":
         print("\nThe Nation Weather Service has updated our alarm by 60 minutes because"
               " of the forecast of", weatherAlert, "outside.")
+        sleep(1)
+        print("VRS has been engaged only allowing us to drive 35MPH.")
     elif weatherAlert == "rainy":
         print("\nThe Nation Weather Service has updated our alarm by 10 minutes because"
               " of the forecast of", weatherAlert, "outside.")
+        sleep(1)
+        print("VRS has been disengaged.")
     elif weatherAlert == "windy":
         print("\nThe Nation Weather Service has updated our alarm by 5 minutes because"
               " of the forecast of", weatherAlert, "outside.")
+        sleep(1)
+        print("VRS has been disengaged.")
     elif weatherAlert == "sunny":
         print("\nThe Nation Weather Service has predicted"
               " the forecast of", weatherAlert, "outside.")
+        sleep(1)
+        print("VRS has been disengaged.")
 
 # Call the vehicle response system to output the alarm update based on the current weather
 vehicleResponseSystem()
