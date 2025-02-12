@@ -1,6 +1,10 @@
 # Import necessary libraries
 import sys  # Provides access to system-specific parameters and functions
 import time  # Provides time-related functions
+import random
+from time import sleep
+
+
 
 # ANSI escape sequences for colors (Rainbow effect)
 RESET = "\033[0m"  # Reset color
@@ -59,8 +63,7 @@ while x != 20:
 # The color of the final success message is set to Green to highlight the completion
 
 
-import random
-from time import sleep
+
 
 # Streamlined dictionary for weather response
 weather_responses = {
