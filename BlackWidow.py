@@ -17,28 +17,29 @@ def gaslevelalert():
     milesToGasStationLow = round(random.uniform(1,25,),1)
     milesToGasStationQaurter = round(random.uniform(25.1,50),1)
     
+    
     gaslevelindicator = GasLevelGauge()
     if gaslevelindicator == "Empty":
-        print("******WARNING******  YOU ARE OUT OF GAS\n")
+        print("\n\n******WARNING******  YOU ARE OUT OF GAS\n\n")
         sleep(1.25)
-        print("calling AAA")
+        print("\n\ncalling AAA...\n")
     elif gaslevelindicator == "Low":
-        print("Your gas tank is extremly low, using gps for the closest gas station...")
+        print("\nYour gas tank is extremly low, using gps for the closest gas station...\n")
         sleep(1.25)
-        print("the closes gas station is", gasStations(), "which is", milesToGasStationLow, "miles away.")
+        print("\nthe closes gas station is", gasStations(), "which is", milesToGasStationLow, "miles away.\n")
     elif gaslevelindicator == "Qaurter tank":
-        print("Your gas tank is at a qaurter tank, using gps for the closest gas station...")
+        print("\nYour gas tank is at a qaurter tank, using gps for the closest gas station...\n")
         sleep(1.25)
-        print("the closes gas station is", gasStations(), "which is", milesToGasStationLow, "miles away.")
+        print("\nthe closes gas station is", gasStations(), "which is", milesToGasStationLow, "miles away.\n")
     elif gaslevelindicator == "Half Tank":
-        print("Your gas tank is at a Half Tank, which is plenty to get to your destination!")
+        print("\nYour gas tank is at a Half Tank, which is plenty to get to your destination!\n")
         sleep(1.25)
     elif gaslevelindicator == "Three-Quarter tank":
-        print("Your gas tank is at a Three-Quarter tank, which is plenty to get to your destination!")
+        print("\nYour gas tank is at a Three-Quarter tank, which is plenty to get to your destination!\n")
         sleep(1.25)
-    elif gaslevelindicator == "Full tank":
-        print("Your gas tank is at a Full tank, which is Perfect! Go hit the Drag Strip!!")
-        sleep(1.25)
+    else:
+        print("\nYour gas tank is at a Full tank, which is Perfect! Go hit the Drag Strip!!\n")
+        
         
 
 
